@@ -67,7 +67,7 @@ $("#fruit1").mouseover(function(){
 function addHearts(){
     $("#trialsLeft").empty();
     for(i = 0; i < trialsLeft; i++){
-        $("#trialsLeft").append('<img src="heart.jpg" class="life">');
+        $("#trialsLeft").append('<img src="fruits slice game/heart.jpg" class="life">');
        
     }
 }
@@ -126,7 +126,7 @@ function chooseFruit(){
     //$("#fruit1").attr('src' ,'images/' + fruits[Math.round(8*Math.random())] +'.jpg'); 
     const fruit = document.querySelector("#fruit1");
 
-    fruit.src=fruits[Math.round(8*Math.random())] +'.jpg';
+    fruit.src='fruits slice game/'+ fruits[Math.round(8*Math.random())] +'.jpg';
 
 }
 
